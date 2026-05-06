@@ -25,3 +25,4 @@ app.use("/", Techincian);
 app.listen(port, () => {
     console.log(`server started http://localhost:${port}`);
 })
+
