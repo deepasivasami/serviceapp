@@ -17,12 +17,20 @@ router.get("/complaint", getservice);
 router.put("/complaint/:id", updateservice);
 router.delete("/complaint/:id", deleteservice);
 
-router.put("/assign/:id", assignTechnician);
+router.put(
+ "/assign/:id",
+ assignTechnician
+);
 
-router.get("/complaint/technician/:techId", getTechnicianJobs);
+router.get(
+ "/complaint/technician/:techId",
+ getTechnicianJobs
+);
+
+// router.put("/assign/:id", assignTechnician);
+
+// router.get("/complaint/technician/:techId", getTechnicianJobs);
 
 module.exports = router;
-
-
 
 
