@@ -23,7 +23,7 @@ app.use("/", mainrouter);
 app.use("/", Register);
 app.use("/", Techincian);
 
-// IMPORTANT
+
 const PORT = process.env.PORT || 7000;
 
 app.listen(PORT, () => {
